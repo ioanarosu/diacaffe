@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>Coffee&Tea</title>
+  <?php include 'partials/head_imports.php' ?>
+</head>
+<body>
+  <?php include 'partials/header.php' ?>
+  <main class="background">
+    <div class="table centered" id="anchor">
+      <div class="menu-items">
+        <!-- start row 1 -->
+        <div class="row clearfix">
+          <div class="col">
+            <h4>Espresso</h4>
+            <ul class="items">
+              <li>
+                Espresso 20ml
+                <p>6lei</p>
+              </li>
+              <li>Espresso 50ml
+                <p>8lei</p>
+              </li>
+              <li>Long Black
+                <p>10lei</p>
+              </li>
+              <li>Cappuccino
+                <p>12lei</p>
+              </li>
+              <li>Caffee Latte
+                <p>12lei</p>
+              </li>
+              <li>Flat White
+                <p>12lei</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+           <h4>Filter Coffee</h4>
+            <ul class="items">
+              <li>Aeropress
+                <p>16lei</p>
+              </li>
+              <li>V60
+                <p>14lei</p>
+              </li>
+              <li>Syphon
+                <p>20lei</p>
+              </li>
+              <li>Chemex 200ml
+                <p>18lei</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end row 1 -->
+        <!--start row 2 -->
+        <div class="row clearfix">
+          <div class="col">
+            <h4>All day</h4>
+            <ul class="items">
+              <li>
+                Hot Chocolate
+                <p>8lei</p>
+                <!-- <span class="choose">black/white</span> -->
+              </li>
+              <li>Lemonade
+                <p>12lei</p>
+                <!-- <span class="choose">simple/mint</span> -->
+              </li>
+              <li>Fresh
+                <p>12lei</p>
+                <!-- <span class="choose">orange/grapefruit</span> -->
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+           <h4>Tea</h4>
+            <ul class="items">
+              <li>
+                White tea
+                <p>15lei</p>
+              </li>
+              <li>Green tea
+                <p>15lei</p>
+              </li>
+              <li>Black tea
+                <p>12lei</p>
+              </li>
+              <li>Oolong tea
+                <p>22lei</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end row 2 -->
+      </div>
+    </div>
+    <div class="recom-box">
+      <h4>Our reccomendation</h4>
+      <div class="pic-box centered">
+        <div class="picb">
+          <a href="#anchor">
+            <figure class="effect-phoebe">
+            <img src="images/coffee/vanilla-black-tea.jpg" alt="tea"/>
+            <figcaption>
+              <h2>Vanilla black tea</h2>
+            </figcaption>
+          </figure>
+        </a>
+        </div>
+        <div class="picb">
+          <a href="#anchor">
+            <figure class="effect-phoebe">
+              <img src="images/coffee/latte.jpg" alt="tea">
+                <figcaption>
+                <h2>Caffee Latte</h2>
+            </figcaption>
+          </figure>
+         </a>
+        </div>
+        <div class="picb">
+          <a href="#anchor">
+            <figure class="effect-phoebe">
+              <img src="images/coffee/vanilla-black-tea.jpg" alt="tea">
+                <figcaption>
+                  <h2>Vanilla black tea</h2>
+                </figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="picb">
+          <a href="#anchor">
+           <figure class="effect-phoebe">
+             <img src="images/coffee/cinnamon-Toast-Biscotti-2.jpg" alt="tea">
+               <figcaption>
+                <h2>Cinnamon Toast Biscotti</h2>
+               </figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </main>
+  <?php include 'partials/footer.php' ?>
+</body>
+</html>

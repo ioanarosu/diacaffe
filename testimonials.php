@@ -1,0 +1,91 @@
+<html>
+<head>
+  <title>Testimonials</title>
+  <?php include 'partials/head_imports.php' ?>
+</head>
+<body>
+  <?php include 'partials/header.php' ?>
+    <main>
+      <div class="testim-bg">
+        <div class="testim-content-costumer centered">
+          <h1>Happy Costumers</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+          <div class="costumers-box clearfix">
+            <div class="cell effect-bubba">
+              <img src="images/Coffee-Woman-modif.jpg" alt="woman">
+              <figcaption>
+                <div class="testimonial">
+                  <h2>Anna says:</h2>
+                  <p>"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters"</p>
+                </div>
+              </figcaption>
+            </div>
+            <div class="cell effect-bubba">
+             <img src="images/coffee/coffee-addiction1.jpg" alt="">
+              <figcaption>
+                <div class="testimonial">
+                  <h2>Mary says:</h2>
+                  <p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters"</p>
+                </div>
+            </div>
+            <div class="cell effect-bubba">
+              <img src="images/coffee/woman-drinking-cappuccino.jpg" alt="woman">
+              <figcaption>
+                <div class="testimonial">
+                  <h2>Jane says:</h2>
+                  <p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters"</p>
+                </div>
+              </figcaption>
+            </div>
+            <div class="cell effect-bubba">
+              <img src="images/Coffee-Woman-modif.jpg" alt="woman">
+              <figcaption>
+                <div class="testimonial">
+                  <h2>Hellen says:</h2>
+                  <p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters"</p>
+                </div>
+              </figcaption>
+            </div>
+            <div class="pagination">
+              <div class="pagination-box">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="testim-bg2">
+        <div class="testim-content-costumer centered">
+          <div class="costumers-box clearfix">
+            <h1>You & Friends</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+            <div class='image-slider'>
+              <div class="thirdbox">
+                <img src="images/friends.jpg" alt="team">
+              </div>
+              <div class="thirdbox">
+                <img src="images/friends2.jpg" alt="team">
+              </div>
+              <div class="thirdbox">
+                <img src="images/friends3.jpg" alt="team">
+              </div>
+              <div class="thirdbox">
+                <img src="images/friends2.jpg" alt="team">
+              </div>
+              <div class="thirdbox">
+                <img src="images/friends.jpg" alt="team">
+              </div>
+              <div class="thirdbox">
+                <img src="images/friends3.jpg" alt="team">
+              </div>
+            </div>
+          </div>
+      </div>
+  </main>
+
+  <?php include 'partials/footer.php' ?>
+</body>
+</html>

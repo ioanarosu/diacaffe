@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="css/css-reset.css">
+<link href='http://fonts.googleapis.com/css?family=Ruge+Boogie' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/efect-bubba.css">
+<link rel="stylesheet" href="css/effect-phobe.css">
+<link rel="stylesheet" href="slick.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="javascript/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="javascript/slick.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.image-slider').slick({
+			infinite: true,
+			slidesToShow: 3,
+  		slidesToScroll: 3,
+  		autoplay: true,
+  		autoplaySpeed: 2000,
+  		dots: true
+		});
+	});
+</script>
