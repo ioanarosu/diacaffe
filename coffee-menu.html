@@ -1,10 +1,10 @@
 <html>
 <head>
   <title>Coffee&Tea</title>
-  <?php include 'partials/head_imports.php' ?>
+  @@include('./partials/head_imports.html')
 </head>
 <body>
-  <?php include 'partials/header.php' ?>
+  @@include('./partials/header.html')
   <main class="background">
     <div class="table centered" id="anchor">
       <div class="menu-items">
@@ -131,7 +131,7 @@
         <div class="picb">
           <a href="#anchor">
            <figure class="effect-phoebe">
-             <img src="images/coffee/cinnamon-Toast-Biscotti-2.jpg" alt="tea">
+             <img src="images/coffee/cinnamon-toast-biscotti.jpg" alt="tea">
                <figcaption>
                 <h2>Cinnamon Toast Biscotti</h2>
                </figcaption>
@@ -142,6 +142,6 @@
       </div>
     </div>
   </main>
-  <?php include 'partials/footer.php' ?>
+  @@include('./partials/footer.html')
 </body>
 </html>

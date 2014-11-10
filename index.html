@@ -1,10 +1,10 @@
 <html>
 <head>
   <title>DiaCaffe</title>
-  <?php include 'partials/head_imports.php' ?>
+  @@include('./partials/head_imports.html')
 </head>
 <body>
-  <?php include 'partials/header.php' ?>
+  @@include('./partials/header.html')
 
   <div class="slider">
       <div class="caption">
@@ -20,7 +20,7 @@
       <div class="row clearfix">
         <div class="figure">
           <img src="images/coffee-cupodif.jpg" alt="cup">
-          <div class="title"><a href="coffee-menu.php" title="">
+          <div class="title"><a href="coffee-menu.html" title="">
             Most Wanted
             </a>
           </div>
@@ -31,11 +31,11 @@
       <!-- end row -->
       <div class="row clearfix">
         <div class="figcaption">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-          <div class="view"><a href="brunch.php" title="">View the full menu</a></div>
+          <div class="view"><a href="brunch.html" title="">View the full menu</a></div>
         </div>
         <div class="figure">
           <img src="images/BreakfastMuffins400.jpg" alt="cup">
-          <div class="title"><a href="brunch.php">
+          <div class="title"><a href="brunch.html">
             New Goodies
             </a>
           </div>
@@ -48,7 +48,7 @@
     <!-- start pic-menu -->
     <div class="pic-menu">
       <div class="title">
-        <a href="coffee-menu.php" title="">Coffee Menu</a>
+        <a href="coffee-menu.html" title="">Coffee Menu</a>
       </div>
     </div>
     <!-- end pic-menu -->
@@ -60,23 +60,23 @@
         <div class="figure">
           <img src="images/Coffee-Woman-modif.jpg" alt="woman">
           <div class="title">
-            <a href="testimonials.php">Happy Costumers</a>
+            <a href="testimonials.html">Happy Costumers</a>
           </div>
         </div>
         <div class="figcaption">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
-        <div class="view"><a href="" title="">Read more</a></div>
+        <div class="view"><a href="testimonials.html" title="">Read more</a></div>
 
         </div>
       </div>
       <!-- end row -->
       <div class="row clearfix">
         <div class="figcaption">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-          <div class="view"><a href="" title="">Read more</a></div>
+          <div class="view"><a href="testimonials.html" title="">Read more</a></div>
         </div>
         <div class="figure">
           <img src="images/team-modif.jpg" alt="cup">
           <div class="title">
-            <a href="testimonials.php">You & Friends</a>
+            <a href="testimonials.html">You & Friends</a>
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@
     <!-- start pic-menu brunch -->
     <div class="pic-menu brunch">
       <div class="title">
-        <a href="brunch.php" title="">Brunch Menu</a>
+        <a href="brunch.html" title="">Brunch Menu</a>
       </div>
     </div>
     <!-- end pic-menu  brunch-->
@@ -96,16 +96,16 @@
     <div class="location clearfix">
       <div class="centered loc">
         <div class="map">
-          <img src="images/map2.jpg" alt="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2713.176311608267!2d27.59111031349181!3d47.154401215835996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cafb993f580585%3A0x169a25ada480a8bc!2sStrada+Prof.+A.+Sesan%2C+Ia%C8%99i!5e0!3m2!1sen!2sro!4v1415552872975" width="608" height="292" frameborder="0" style="border:0"></iframe>
         </div>
         <div class="info">
           <div class="adress">
             <img src="images/location-icon.svg" alt="location">
               <p>Str. Prof. A. Sesan nr 22</p>
             <img src="images/phone16.svg" alt="phone">
-              <p>077586696</p>
+              <p><a href="tel:077-586-6696">077-586-6696</a></p>
             <img src="images/close13.svg" alt="mail">
-              <p>coffeemania@gmail.com</p>
+              <p><a href="mailto:diacaffe@gmail.com">diacaffe@gmail.com</p>
           </div>
         </div>
       </div>
@@ -115,7 +115,7 @@
   <!-- end content -->
 
   <!-- start footer -->
-  <?php include 'partials/footer.php' ?>
+  @@include('./partials/footer.html')
   <!-- end footer -->
 </body>
 </html>

@@ -1,3 +1,6 @@
+html {
+	font-size: 62.5%;
+}
 .header {
 	background-color: #361F0E;
 	opacity: 0.85;
@@ -18,7 +21,7 @@
 }
 .header li {
 	display: inline-block;
-	font-size: 20px;
+	font-size: 2rem;
 	font-family: "Indie Flower";
 	text-transform: capitalize;
 	height: 100%;
@@ -39,7 +42,7 @@
 .logo {
 	display: inline-block;
 	float: left;
-	font-size: 40px;
+	font-size: 4rem;
 	font-family: "Ruge Boogie";
 	padding-bottom: 14px;
 	margin-top: 2px;
@@ -49,7 +52,7 @@
 	padding-top: 7px;
 }
 .slider {
-	background: url(../images/slider.jpg) no-repeat center center ;
+	background: url(/images/slider.jpg) no-repeat center center ;
 	height: 470px;
 	background-size: cover;
 	width: auto;
@@ -60,16 +63,17 @@
 	padding-top: 190px;
 }
 .caption h1 {
-	font-size: 80px;
+	font-size: 8rem;
 	font-family: "Ruge Boogie";
 }
 
 .caption h3 {
-	font-size: 22px;
+	font-size: 2.2rem;
 	line-height: 62px;
 	font-family: "Open Sans";
 	text-transform: capitalize;
 	color: #ececec;
+	letter-spacing: 6px;
 }
 /*featured*/
 .content {
@@ -92,7 +96,7 @@
 	float: left;
 }
 .figcaption {
-	font-size: 18px;
+	font-size: 1.8rem;
 	color: #565A5C;
 	line-height: 25px;
 	font-family: "Open Sans";
@@ -121,7 +125,7 @@
 	padding: 10px;
 	color: #fff;
 	float: left;
-	font-size: 28px;
+	font-size: 2.8rem;
 	left: 50%;
 	bottom: 50px;
 	margin-left: -100px;
@@ -132,15 +136,22 @@
 .title:hover {
 	background-color: rgba(0,0,0,0.5);
 }
-.view a{
-	font-size: 15px;
+
+.view a {
+	font-size: 1.5rem;
 	color: #F3550B;
 	line-height: 60px;
 	float: right;
+	text-decoration: none;
 }
+.view a:hover {
+	text-decoration: underline;
+	color: #F34E00;
+}
+
 .pic-menu {
 	width: auto;
-	background: url(../images/coffee-menu.jpg) no-repeat center center;
+	background: url(/images/coffee-menu.jpg) no-repeat center center;
 	height: 372px;
 	background-size: cover;
 	position: relative;
@@ -158,7 +169,7 @@
    clear: both;
   }
   .brunch {
-	background: url(../images/brunch1mofif2.jpg) no-repeat center center;
+	background: url(/images/brunch1mofif2.jpg) no-repeat center center;
 	background-size: cover;
 }
 .location {
@@ -178,7 +189,7 @@
 	float: left;
 	text-align: center;
 	color: #565A5C;
-	font-size: 16spx;
+	font-size: 1.6rem;
 	line-height: 32px;
 	background-color: #fff;
 	font-family: "Open Sans";
@@ -188,8 +199,12 @@
 	height: 28px;
 	margin-top: 15px;
 }
-.adress p{
+.adress p a {
 	color: #5F5C5C;
+	text-decoration: none;
+}
+.adress a:hover {
+	text-decoration: underline;
 }
 .adress {
 	margin-top: 30px;
@@ -206,7 +221,7 @@
 	width: 221px;
 	height: auto;
 	color: #fff;
-	font-size: 18px;
+	font-size: 2rem;
 	text-transform: capitalize;
 	font-family: "Indie Flower";
 	text-align: center;
@@ -222,16 +237,16 @@
 	text-decoration: none;
 	color: #fff;
 	text-transform: capitalize;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-family: "Open Sans";
 }
-.fboxes h4 a {
+.fboxes h4 {
 	font-family: "Indie Flower";
-	font-size: 18px;
+	font-size: 1.8rem;
 }
 
 .fboxes p {
-	font-size: 14px;
+	font-size: 1.4rem;
 	text-transform: lowercase;
 	margin-top: 18px;
 	font-family: "Open Sans";
@@ -243,7 +258,7 @@
 	width: auto;
 	height: 42px;
 	color: #979797;
-	font-size: 13px;
+	font-size: 1.3rem;
 	border: 0;
 	padding-left: 10px;
 	float: left;
@@ -251,7 +266,7 @@
 }
 .sign-up {
 	background-color: #F3550B;
-	font-size: 13px;
+	font-size: 1.3rem;
 	text-transform: capitalize;
 	color: #fff;
 	border: 0;
@@ -280,8 +295,12 @@
 }
 .fmenu a {
 	color: #fff;
+	font-size: 1.6rem;
 	text-decoration: none;
 	font-family: "Indie Flower";
+}
+.fmenu a:hover {
+	color: #F3550B;
 }
 .fmenu li {
 	display: inline-block;
@@ -294,14 +313,14 @@
 
 .background {
 	width: auto;
-	background: url(../images/brick-pattern.jpg) no-repeat center center;
+	background: url(/images/brick-pattern.jpg) no-repeat center center;
 	background-size: cover;
 	padding-top: 50px;
 }
 .table {
 	width: 884px;
 	height: 700px;
-	background: url(../images/dirty_old_shirt.png) repeat;
+	background: url(/images/dirty_old_shirt.png) repeat;
 	box-shadow: 1px 0 10px 0 #4a4a4a;
 	background-color: #262626;
 	margin-bottom: 50px;
@@ -312,15 +331,15 @@
 	margin-top: 16px;
 }
 .row h4 {
-	color: #C00054;
-	font-size: 36px;
+	color: #F3550B;
+	font-size: 3.6rem;
 	font-family: "Indie Flower";
 	text-transform: capitalize;
 	padding-top: 60px;
 }
 .items li {
 	color: #fff;
-	font-size: 20px;
+	font-size: 2rem;
 	font-family: "Open Sans";
 	line-height: 28px;
 	font-weight: 300;
@@ -331,7 +350,7 @@
 	margin-left: 56px;
 }
 .choose {
-	font-size: 18px;
+	font-size: 1.8rem;
 }
 .menu-items {
 	width: 624px;
@@ -352,7 +371,8 @@
 	color: #565A5C;
 	font-family: "Indie Flower";
 	text-transform: uppercase;
-	padding-top: 50px;
+	font-size: 20px;
+	padding-top: 2rem;
 	padding-bottom: 50px;
 }
 .pic-box {
@@ -379,11 +399,9 @@
 }
 .brunch-table {
 	width: 884px;
-	background-color: #fff;
 	text-align: center;
 	height: auto;
 	position: relative;
-	box-shadow: 0px 0 4px 0 #4a4a4a;
 
 
 }
@@ -402,7 +420,8 @@
 	padding: 15px 0;
 	font-family: "Indie Flower";
 	color: #565A5C;
-	line-height: 20px;
+	font-size: 2rem;
+	line-height: 2.8rem;
   text-transform: capitalize;
   font-weight: 300;
 }
@@ -446,7 +465,7 @@
 }
 .info-contact h4 {
 	font-family: "Open Sans";
-	font-size: 20px;
+	font-size: 2rem;
 	text-transform: capitalize;
 	color: #4A4A4A;
 	font-weight: 600;
@@ -454,7 +473,7 @@
 }
 .info-contact h5 {
 	font-family: "Open Sans";
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
 	color: #5F5C5C;
 	padding-top: 17px;
@@ -463,7 +482,7 @@
 	color: #9B9B9B;
 	padding-top: 6px;
 	font-family: "Open Sans";
-	font-size: 14px;
+	font-size: 1.4rem;
 	line-height: 16px;
 	font-weight: 300;
 }
@@ -471,7 +490,7 @@
 	width: 884px;
 	height: auto;
 	color: #9b9b9b;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-family: "Indie Flower";
 }
 .contactform input {
@@ -482,7 +501,6 @@
 	padding-left: 10px;
 	font-family: "Open Sans";
 	font-weight: 400;
-
 }
 .contactform textarea {
 	width: 98%;
@@ -505,7 +523,7 @@
 		margin-bottom: 35px;
 		margin-left: 1%;
 		color: #fff;
-		font-size: 18px;
+		font-size: 1.8rem;
 		font-family: "Open Sans";
 		text-transform: uppercase;
 }
@@ -521,14 +539,14 @@
 	margin-top: 16px;
 }
 
-
 /*happy costumers*/
+
 .testim-bg {
 	background-color: #f8f8f8;
 	width: auto;
 }
 .testim-bg p {
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-family: "Open Sans";
 	color: #565A5C;
 	line-height: 25px;
@@ -562,7 +580,6 @@
 	margin: auto;
 	max-width: 117%;
 }
-
 .testim-content-costumer h1 {
 	color: #565A5C;
 	font-family: "Open Sans";
@@ -570,55 +587,29 @@
 	text-transform: lowercase;
 	text-align: center;
 	font-weight: 200;
-	font-size: 38px;
+	font-size: 3.8rem;
 }
 .testimonial {
 	padding: 118px 60px;
 }
 .testimonial h2 {
 	color: #fff;
+	font-size: 1.8rem;
 	font-family: "Open Sans";
 	margin-bottom: 9px;
-
 }
 .testimonial p {
 	color: #fff;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-family: "Open Sans";
 	font-style: italic;
 	font-weight: 300;
-	line-height: 20px;
+	line-height: 22px;
+	text-align: left;
 }
-/*.pagination {
-	display: inline-block;
-	text-align: center;
-	width: 884px;
-	height: auto;
-	position: relative;
-}
-.pagination-box {
-	margin: 0 auto;
-	width: auto;
-	left: 50%;
-	margin-left: -22.5px;
-	position: absolute;
-	margin-top: 8px;
-}
-
-.slick-dots button {
-	width: 12px;
-	height: 12px;
-	background-color: #d7c9c9;
-	border-radius: 50%;
-	float: left;
-	margin-right: 3px;
-}
-.circle:first-child {
-	background-color: #a68f8f;
-}
-*/
 .slick-dots li button:before {
-	font-size: 15px;
+	font-size: 1.5rem;
+	color: #a68f8f;
 }
 
 .testim-bg2 {
@@ -627,10 +618,10 @@
 	margin-bottom: 50px;
 }
 .testim-bg2 p {
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-family: "Open Sans";
 	color: #565A5C;
-	line-height: 25px;
+	line-height: 26px;
 	margin-bottom: 40px;
 	font-weight: 300;
 }
@@ -652,7 +643,6 @@
 	margin: auto;
 	max-width: 117%;
 }
-
 .image-slider {
 	height: 340px;
 }
